@@ -1,0 +1,35 @@
+h1 {
+    margin: auto;
+    background: cornflowerblue;
+    text-align: center;
+    
+}
+
+h2{
+    display: inline-block;
+    margin: auto;
+    background: black;
+    text-align: center;
+    color: white;
+    
+}
+
+#selection-area {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+#left {
+    width: 40%;
+    float: left;
+    background-color: #AC194D;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    background-color: #AC194D;
+}
+
+
