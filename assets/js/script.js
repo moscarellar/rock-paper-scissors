@@ -24,6 +24,7 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
     })
 )
 
+
 /**
  * We use Math method to generate randon number, multiply it by 3
  * and make use MathFloor to keep it an integer
@@ -52,26 +53,68 @@ function computerChoice() {
 function displayResult() {
 
     if (computerGameSelection === userChoice){
-        gameActualResult = "It is a Draw"
+        gameActualResult = "It is a Draw";
+        draw();
+    
+
     }
     if (computerGameSelection === "rock" && userChoice === "paper"){
-        gameActualResult = "User Won!"
+        gameActualResult = "User Won!";
+        userWins();
+        
     }
     if (computerGameSelection === "rock" && userChoice === "scissors"){
-        gameActualResult = "User Lost!"
+        gameActualResult = "User Lost!";
+        userLost();
+    
     }
     if (computerGameSelection === "paper" && userChoice === "rock"){
-        gameActualResult = "User Lost!"
+        gameActualResult = "User Lost!";
+        userLost();
+    
     }
     if (computerGameSelection === "paper" && userChoice === "scissors"){
-        gameActualResult = "User Won!"
+        gameActualResult = "User Won!";
+        userWins();
     }
     if (computerGameSelection === "scissors" && userChoice === "rock"){
-        gameActualResult = "User Won!"
+        gameActualResult = "User Won!";
+        userWins();
+        
     }
     if (computerGameSelection === "scissors" && userChoice === "paper"){
-        gameActualResult = "User Lost!"
+        gameActualResult = "User Lost!";
+        userLost();
+        
     }
     result.innerHTML = gameActualResult;
 
 }
+
+/**
+ * Function for winner score
+ * increments 1 each time the user wins
+ */
+ function userWins() {
+    let score = parseInt(document.getElementById('win-score').innerText);
+    document.getElementById('win-score').innerText = ++ score}
+
+
+/**
+ * Function for computer score
+ * increments 1 each time the user lost
+ */
+
+function userLost() {
+    let score = parseInt(document.getElementById('lost-score').innerText);
+    document.getElementById('lost-score').innerText = ++ score ;
+}
+
+/**
+ * Function for draw score
+ * increments 1 each time there is a draw
+ */
+
+function draw() {
+    let score = parseInt(document.getElementById('draw-score').innerText);
+    document.getElementById('draw-score').innerText = ++ score;}
