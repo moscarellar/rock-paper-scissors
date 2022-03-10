@@ -6,7 +6,7 @@ h1 {
 }
 
 h2{
-    display: inline-block;
+    display:flex;
     margin: auto;
     background: black;
     text-align: center;
