@@ -13,32 +13,68 @@ let gameActualResult
  * At every button click it will display button id into user-selection span
  * 
  * It fires computerChoice()
-*/
-
-selections.forEach(selection => selection.addEventListener('click', (c) => {
-        userChoice = c.target.id;
-        userSelection.innerHTML = userChoice;
-        computerChoice();
-        displayResult();
-
-    })
-)
-
-/**
- * functions to display images after selection
  */
 
-function displayComputerRock(){
+selections.forEach(selection => selection.addEventListener('click', (c) => {
+    userChoice = c.target.id;
+    userSelection.innerHTML = userChoice;
+    userChoiceImage();
+    computerChoice();
+    displayResult();
+
+
+}))
+
+/**
+ * functions to display images after selection for computer
+ */
+
+function displayComputerRock() {
     document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
 }
 
-function displayComputerPaper(){
+function displayComputerPaper() {
     document.getElementById("computer-selection-image").src = "assets/images/paperhand.png";
 }
 
-function displayComputerScissor(){
+function displayComputerScissor() {
     document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
 }
+
+/**
+ * functions to display images after selection for user
+ */
+
+function displayUserRock() {
+    document.getElementById("user-selection-image").src = "assets/images/rockhand.png";
+}
+
+function displayUserPaper() {
+    document.getElementById("user-selection-image").src = "assets/images/paperhand.png";
+}
+
+function displayUserScissor() {
+    document.getElementById("user-selection-image").src = "assets/images/scissorshand.png";
+}
+
+
+function userChoiceImage() {
+
+    if (userChoice = "paper") {
+        displayUserPaper();
+    }
+
+    if (userChoice = "scissors") {
+        displayUserScissor()
+    }
+
+    if (userChoice = "rock") {
+        displayUserRock()
+    }
+
+
+}
+
 
 /**
  * We use Math method to generate randon number, multiply it by 3
@@ -46,7 +82,7 @@ function displayComputerScissor(){
  */
 
 function computerChoice() {
-    const computerNumberChoice = Math.floor(Math.random()*selections.length);
+    const computerNumberChoice = Math.floor(Math.random() * selections.length);
     console.log(computerNumberChoice);
 
     if (computerNumberChoice === 0) {
@@ -70,52 +106,55 @@ function computerChoice() {
 
 function displayResult() {
 
-    if (computerGameSelection === userChoice){
+    if (computerGameSelection === userChoice) {
         gameActualResult = "It is a Draw";
         draw();
-    
+
 
     }
-    if (computerGameSelection === "rock" && userChoice === "paper"){
+    if (computerGameSelection === "rock" && userChoice === "paper") {
         gameActualResult = "User Won!";
         userWins();
-        
+
     }
-    if (computerGameSelection === "rock" && userChoice === "scissors"){
+    if (computerGameSelection === "rock" && userChoice === "scissors") {
         gameActualResult = "User Lost!";
         userLost();
-    
+
     }
-    if (computerGameSelection === "paper" && userChoice === "rock"){
+    if (computerGameSelection === "paper" && userChoice === "rock") {
         gameActualResult = "User Lost!";
         userLost();
-    
+
     }
-    if (computerGameSelection === "paper" && userChoice === "scissors"){
+    if (computerGameSelection === "paper" && userChoice === "scissors") {
         gameActualResult = "User Won!";
         userWins();
     }
-    if (computerGameSelection === "scissors" && userChoice === "rock"){
+    if (computerGameSelection === "scissors" && userChoice === "rock") {
         gameActualResult = "User Won!";
         userWins();
-        
+
     }
-    if (computerGameSelection === "scissors" && userChoice === "paper"){
+    if (computerGameSelection === "scissors" && userChoice === "paper") {
         gameActualResult = "User Lost!";
         userLost();
-        
+
     }
     result.innerHTML = gameActualResult;
 
 }
 
+
+
 /**
  * Function for winner score
  * increments 1 each time the user wins
  */
- function userWins() {
+function userWins() {
     let score = parseInt(document.getElementById('win-score').innerText);
-    document.getElementById('win-score').innerText = ++ score}
+    document.getElementById('win-score').innerText = ++score
+}
 
 
 /**
@@ -125,7 +164,7 @@ function displayResult() {
 
 function userLost() {
     let score = parseInt(document.getElementById('lost-score').innerText);
-    document.getElementById('lost-score').innerText = ++ score ;
+    document.getElementById('lost-score').innerText = ++score;
 }
 
 /**
@@ -135,4 +174,5 @@ function userLost() {
 
 function draw() {
     let score = parseInt(document.getElementById('draw-score').innerText);
-    document.getElementById('draw-score').innerText = ++ score;}
+    document.getElementById('draw-score').innerText = ++score;
+}
