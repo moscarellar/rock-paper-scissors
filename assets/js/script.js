@@ -24,6 +24,13 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
     })
 )
 
+/**
+ * functions to display images after selection
+ */
+
+function displayComputerRock(){
+    document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
+}
 
 /**
  * We use Math method to generate randon number, multiply it by 3
@@ -40,6 +47,7 @@ function computerChoice() {
 
     if (computerNumberChoice === 1) {
         computerGameSelection = 'rock'
+        displayComputerRock()
     }
 
     if (computerNumberChoice === 2) {
