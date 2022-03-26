@@ -32,6 +32,14 @@ function displayComputerRock(){
     document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
 }
 
+function displayComputerPaper(){
+    document.getElementById("computer-selection-image").src = "assets/images/paperhand.png";
+}
+
+function displayComputerScissor(){
+    document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
+}
+
 /**
  * We use Math method to generate randon number, multiply it by 3
  * and make use MathFloor to keep it an integer
@@ -43,6 +51,7 @@ function computerChoice() {
 
     if (computerNumberChoice === 0) {
         computerGameSelection = 'paper'
+        displayComputerPaper()
     }
 
     if (computerNumberChoice === 1) {
@@ -52,6 +61,7 @@ function computerChoice() {
 
     if (computerNumberChoice === 2) {
         computerGameSelection = 'scissors'
+        displayComputerScissor()
     }
 
     computerSelection.innerHTML = computerGameSelection;
