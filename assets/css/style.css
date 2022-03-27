@@ -1,3 +1,4 @@
+
 h1 {
     margin: auto;
     background: cornflowerblue;
@@ -15,21 +16,19 @@ h2{
 }
 
 #selection-area {
-    width: 85%;
-    margin: auto;
-    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-#left {
-    width: 40%;
-    float: left;
-    background-color: #AC194D;
-}
-
-#right {
-    width: 40%;
-    float: right;
-    background-color: #AC194D;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+    background: rgb(10, 10, 10, .7);
 }
 
 
