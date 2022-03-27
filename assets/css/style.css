@@ -1,4 +1,3 @@
-
 h1 {
     margin: auto;
     background: cornflowerblue;
@@ -7,12 +6,10 @@ h1 {
 }
 
 h2{
-    display:flex;
     margin: auto;
     background: black;
     text-align: center;
-    color: white;
-    
+    color: white; 
 }
 
 #selection-area {
@@ -24,11 +21,10 @@ h2{
 }
 
 .container {
-    display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 50px;
     background: rgb(10, 10, 10, .7);
-}
 
+}
 
