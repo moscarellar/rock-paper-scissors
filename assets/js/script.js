@@ -26,6 +26,40 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
 }))
 
 /**
+ * functions to display images after selection for user
+ */
+
+ function displayUserRock() {
+    document.getElementById("user-selection-image").src = "assets/images/rockhand.png";
+}
+
+function displayUserPaper() {
+    document.getElementById("user-selection-image").src = "assets/images/paperhand.png";
+}
+
+function displayUserScissor() {
+    document.getElementById("user-selection-image").src = "assets/images/scissorshand.png";
+}
+
+
+function userChoiceImage() {
+
+    if (userChoice === "paper") {
+        displayUserPaper();
+    }
+
+    if (userChoice === "scissors") {
+        displayUserScissor();
+    }
+
+    if (userChoice === "rock") {
+        displayUserRock();
+    }
+
+}
+
+
+/**
  * functions to display images after selection for computer
  */
 
@@ -41,39 +75,9 @@ function displayComputerScissor() {
     document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
 }
 
-/**
- * functions to display images after selection for user
- */
-
-function displayUserRock() {
-    document.getElementById("user-selection-image").src = "assets/images/rockhand.png";
-}
-
-function displayUserPaper() {
-    document.getElementById("user-selection-image").src = "assets/images/paperhand.png";
-}
-
-function displayUserScissor() {
-    document.getElementById("user-selection-image").src = "assets/images/scissorshand.png";
-}
 
 
-function userChoiceImage() {
 
-    if (userChoice = "paper") {
-        displayUserPaper();
-    }
-
-    if (userChoice = "scissors") {
-        displayUserScissor()
-    }
-
-    if (userChoice = "rock") {
-        displayUserRock()
-    }
-
-
-}
 
 
 /**
