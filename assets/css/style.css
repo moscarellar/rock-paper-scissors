@@ -2,14 +2,14 @@ h1 {
     margin: auto;
     background: cornflowerblue;
     text-align: center;
-    
+
 }
 
-h2{
+h2 {
     margin: auto;
     background: black;
     text-align: center;
-    color: white; 
+    color: white;
 }
 
 #selection-area {
@@ -17,14 +17,17 @@ h2{
     width: 100%;
     align-items: center;
     justify-content: center;
-    
+    flex-direction: column;
 }
 
 .container {
-    align-items: center;
-    justify-content: center;
     margin: 20px 50px;
     background: rgb(10, 10, 10, .7);
 
 }
 
+
+@media (min-width: 640px) {
+    #selection-area {
+    flex-direction: row;
+}}
