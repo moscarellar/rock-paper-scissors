@@ -183,18 +183,18 @@ function draw() {
 }
 
 function resetGame(){
-    if (document.getElementById('win-score').innerText === "3")
+    if (document.getElementById('win-score').innerText === "3"){
     alert("User won this round");
-    /*
+    window.location.reload();
+    
     document.getElementById('win-score').innerText = "0";
     document.getElementById('lost-score').innerText = "0";
-    document.getElementById('draw-score').innerText = "0";*/
+    document.getElementById('draw-score').innerText = "0";}
 
-    else if (document.getElementById('lost-score').innerText === "3")
+    else if (document.getElementById('lost-score').innerText === "3"){
     alert ("Computer Won this round");
-    /*
+    window.location.reload(); 
     document.getElementById('win-score').innerText = "0";
     document.getElementById('lost-score').innerText = "0";
-    document.getElementById('draw-score').innerText = "0";*/
-
+    document.getElementById('draw-score').innerText = "0";}
 }
