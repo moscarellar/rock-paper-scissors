@@ -21,6 +21,7 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
     userChoiceImage();
     computerChoice();
     displayResult();
+    resetGame();
 
 
 }))
@@ -179,4 +180,21 @@ function userLost() {
 function draw() {
     let score = parseInt(document.getElementById('draw-score').innerText);
     document.getElementById('draw-score').innerText = ++score;
+}
+
+function resetGame(){
+    if (document.getElementById('win-score').innerText === "3")
+    alert("User won this round");
+    /*
+    document.getElementById('win-score').innerText = "0";
+    document.getElementById('lost-score').innerText = "0";
+    document.getElementById('draw-score').innerText = "0";*/
+
+    else if (document.getElementById('lost-score').innerText === "3")
+    alert ("Computer Won this round");
+    /*
+    document.getElementById('win-score').innerText = "0";
+    document.getElementById('lost-score').innerText = "0";
+    document.getElementById('draw-score').innerText = "0";*/
+
 }
