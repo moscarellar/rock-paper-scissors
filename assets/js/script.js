@@ -30,7 +30,7 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
  * functions to display images after selection for user
  */
 
- function displayUserRock() {
+function displayUserRock() {
     document.getElementById("user-selection-image").src = "assets/images/rockhand.png";
 }
 
@@ -182,19 +182,26 @@ function draw() {
     document.getElementById('draw-score').innerText = ++score;
 }
 
-function resetGame(){
-    if (document.getElementById('win-score').innerText === "3"){
-    alert("User won this round");
-    window.location.reload();
-    
+function resetScores() {
     document.getElementById('win-score').innerText = "0";
     document.getElementById('lost-score').innerText = "0";
-    document.getElementById('draw-score').innerText = "0";}
+    document.getElementById('draw-score').innerText = "0";
+}
 
-    else if (document.getElementById('lost-score').innerText === "3"){
-    alert ("Computer Won this round");
-    window.location.reload(); 
-    document.getElementById('win-score').innerText = "0";
-    document.getElementById('lost-score').innerText = "0";
-    document.getElementById('draw-score').innerText = "0";}
+function resetGame() {
+    if (document.getElementById('win-score').innerText === "3") {
+        setTimeout(function () {
+            alert("User won this round")
+        }, 500);
+        setTimeout(resetScores(), 20000);
+
+
+    } else if (document.getElementById('lost-score').innerText === "3") {
+        setTimeout(function () {
+            alert("Computer Won this round")
+        }, 300);
+
+
+        setTimeout(resetScores(), 10000);
+    }
 }

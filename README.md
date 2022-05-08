@@ -1,108 +1,147 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors
 
-Welcome moscarellar,
+This is the main site for . Is designed to be responsive and accessible so it can be easy to navigate for users. It contains information on activities held in, location and contact information.
+This website was created with the purpose of completing the first Project of Code Institute Software Developer program.
+Find the  website [here](https://moscarellar.github.io/mo).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website mockup](README/mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+* [User Experience (UX)](#User-Experience-(UX))
+* [Design](#Design)
+* [Features](#Features)
+* [Technologies](#technologies)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Acknowledgements & Credit](#Credits)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+### User Story
+*First Time Visitor Goals 
+*As a First Time user, I want to easily understand the layout of the site. 
+*As a First Time user, I want to be able to navigate through the site and understand which type of activities are offered. 
 
-A blue button should appear to click: _Make Public_,
+*Returning Visitor Goals 
+*As a Returning user, I want to 
 
-Another blue button should appear to click: _Open Browser_.
+### Structure
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The website consists of 1 HTML page.
 
-A blue button should appear to click: _Make Public_,
+* 
+* 
+* 
 
-Another blue button should appear to click: _Open Browser_.
+## Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Imagery 
+The main images when accessing the website are descriptive of main attractions and offers in The Film Society. The images scale adapt to the screen depending on its size.
+### Fonts
+The fonts used throughout the website are Monoton and Rubik. 
+I used 1 font for the logo and 1 font for the site. There is no text-transform applied as we intended to keep logo with capital and lowercase letters.
 
-To log into the Heroku toolbelt CLI:
+### Color Scheme
+Our color pallete is created of the following colors. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Color palette](README/colors.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+These colors were taken from the main hero image. As this image is used as the hero image, we used these colors for the logo and color palette.
 
-------
+###Wireframes
+Balsamiq was used in order to sketch the layout of the website.
 
-## Release History
+![First page wireframe](README/wireframe1.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Second page wireframe](README/wireframe2.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Third page wireframe](README/wireframe3.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Logo - Nav Bar
+The Logo I chose is a strong, bold logo and has the intention to set a classy theme, however, with some colors that make reference to the Neon Entrance visible in the Hero Image. It is visible on all pages and it’s function is to bring the user back to the home page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The Navigation Bar is fully responsive and includes links to Home page, Gallery and Contact page.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Logo and Nav Bar](README/logo-navbar.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Landing Page Image
+The Landing Page includes an image with an animation and a text box that displays right away a message with a call to action to join The Film Society. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Main Activities held on The Film Society are displayed and separated in three parts so it can be easily identified by the eye.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Main Activities](README/main.png)
+ 
+Footer
+Footer includes icons to most known social media accounts. They open on a new tab so it does not compromise navigation. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Footer](README/footer.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Gallery 
+This section includes pictures with representation of all activities held in The Film Society. It has the intention to show it is not only a place to gather for screenings, but there is actually a community that interacts in other activities.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Gallery](README/gallery.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Contact
+The Contact page is the main point of contact between the user and the institution. We find a form in which the user will be able to Join the Film Society, or ask to be included or inquiry about any other of the activities is interested in.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Form](README/form.png)
 
-------
+I have included a Map and Contact Information such as email and telephone numbers.
 
-## FAQ about the uptime script
+![Location and Contact](README/location-contact.png)
 
-**Why have you added this script?**
+## Technologies
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### 
+* HTML5
+* CSS3
+* JavaScript
 
-**How will this affect me?**
+These were the 3 languages I used to create this site.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Other sources to create the site
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+1. Google Fonts
+![Landing - Hero Image](README/hero-image.png)
+2. Font Awesome
+3. Gitpod
+4. GitHub
+5. Balsamiq
+6. OnlineImageCompressor
+7. Formatting
+    * The css file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Testing
+Testing was important in order to ensure that the site was responsive in different screen sizes. Tested on Chrome, Safari (Computer Screens and Mobile). 
+I ensured all links were working fine.
 
-**So….?**
+HTML: No errors were returned when passing through the official W3C validator. For gallery site there is a warning for line 33, asking to include a h element. However, for a better aesthetic I decided not to include it.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+CSS: No errors were found when passing through the official W3C validator.
 
-**Can I opt out?**
+Lighthouse
+Initially, lighthouse gave poor results, however, after following recommendations of running lighthouse in Incognito Window, scores improved dramatically. As it is mentioned in the course tutorial that Accessibility Scores are the most important, I feel very confident about my first project.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Lighthouse](README/lighthouse.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Bugs
+The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. 
+After rewatching tutorials and using Google as a tool to debug my project, I began to understand dynamics for elements much better, specially around Clear:Both and Overflow:Hidden. Also given each element the appropriate % rate to keep it consistent with the screen. I believe this was the biggest challenge/learning in this project.
 
-**Anything more?**
+## Deployment
+Site was deployed to GitHub.
+In order to deploy I followed instructions in tutorials offered by Code Institute. Choosing the right option in the source section (Main/Master Branch).
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I began to apply (to some extent) constant commits for the website. However I believe there is the need to do it more often. I believe as a beginner this practice will be more and more common in future projects.
 
----
+## Credits
 
-Happy coding!
+It is very important to mention, even due no direct copy of code was done, the CI Love Running Project gave me a strong base to develop this page. This is my first time working on a web site development, so it is natural this is my main reference. However, I tried to make variations of this code so I could show control and understanding over the code I was using.
+
+Images were taken fromFind the  website [Unsplash](https://unsplash.com)
+
+Most of my doubts were already answered on Slack Community.
