@@ -44,7 +44,6 @@ Our color pallete is created of the following colors.
 
 ![Color palette](README/colors.png)
 
-These colors were taken from the main hero image. As this image is used as the hero image, we used these colors for the logo and color palette.
 
 ###Wireframes
 Balsamiq was used in order to sketch the layout of the website.
@@ -57,39 +56,23 @@ Balsamiq was used in order to sketch the layout of the website.
 
 ## Features
 
-Logo - Nav Bar
-The Logo I chose is a strong, bold logo and has the intention to set a classy theme, however, with some colors that make reference to the Neon Entrance visible in the Hero Image. It is visible on all pages and it’s function is to bring the user back to the home page.
+Emoji Images
+I decided to use emoji imagery as it is broadly known to users and they will be able to relate easily to them. This will result in a faster identification of icons and more appealing.
 
-The Navigation Bar is fully responsive and includes links to Home page, Gallery and Contact page.
+Buttons
+They are simple and easy to find. User can choose one of the 3 option (rock, paper, scissors) and there is an adittional Reset button. This botton will reset scores to 0.
 
-![Logo and Nav Bar](README/logo-navbar.png)
+![Buttons](README/logo-navbar.png)
 
-Landing Page Image
-The Landing Page includes an image with an animation and a text box that displays right away a message with a call to action to join The Film Society. 
-
-Main Activities held on The Film Society are displayed and separated in three parts so it can be easily identified by the eye.
+Scoreboard
+Scoreborard is simple and easy to check. After each round the SB will be automatically updated so user can easily keep track of results.  
 
 
-![Main Activities](README/main.png)
+![Scoreboard](README/.png)
  
-Footer
-Footer includes icons to most known social media accounts. They open on a new tab so it does not compromise navigation. 
-
-![Footer](README/footer.png)
-
-Gallery 
-This section includes pictures with representation of all activities held in The Film Society. It has the intention to show it is not only a place to gather for screenings, but there is actually a community that interacts in other activities.
-
-![Gallery](README/gallery.png)
-
-Contact
-The Contact page is the main point of contact between the user and the institution. We find a form in which the user will be able to Join the Film Society, or ask to be included or inquiry about any other of the activities is interested in.
-
-![Form](README/form.png)
-
-I have included a Map and Contact Information such as email and telephone numbers.
-
-![Location and Contact](README/location-contact.png)
+Rules Link
+Pop up Window
+![Rules](README/.png)
 
 ## Technologies
 
@@ -98,7 +81,7 @@ I have included a Map and Contact Information such as email and telephone number
 * CSS3
 * JavaScript
 
-These were the 3 languages I used to create this site.
+These are the 3 technologies I used to create this site.
 
 ### Other sources to create the site
 
@@ -108,7 +91,6 @@ These were the 3 languages I used to create this site.
 3. Gitpod
 4. GitHub
 5. Balsamiq
-6. OnlineImageCompressor
 7. Formatting
     * The css file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
 
