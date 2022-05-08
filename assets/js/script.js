@@ -10,8 +10,9 @@ let gameActualResult
 
 /**
  * selections.forEach is an event listener waiting for click. 
- * At every button click it will display button id into user-selection span
- * It fires computerChoice()
+ * userChoice will target the id of button, and return that value to userChoice.
+ * userChoice value is used inside userChoiceOption to determine which function 
+ * will be executed
  */
 
 selections.forEach(selection => selection.addEventListener('click', (event) => {
@@ -55,30 +56,6 @@ function displayUserScissor() {
 }
 
 
-
-
-
-/**
- * functions to display images after selection for computer
- */
-
-function displayComputerRock() {
-    document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
-}
-
-function displayComputerPaper() {
-    document.getElementById("computer-selection-image").src = "assets/images/paperhand.png";
-}
-
-function displayComputerScissor() {
-    document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
-}
-
-
-
-
-
-
 /**
  * We use Math method to generate randon number, multiply it by 3
  * and make use MathFloor to keep it an integer
@@ -106,6 +83,25 @@ function computerChoice() {
     computerSelection.innerHTML = computerGameSelection;
 
 }
+
+
+/**
+ * functions to display images after selection for computer
+ */
+
+ function displayComputerRock() {
+    document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
+}
+
+function displayComputerPaper() {
+    document.getElementById("computer-selection-image").src = "assets/images/paperhand.png";
+}
+
+function displayComputerScissor() {
+    document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
+}
+
+
 
 function displayResult() {
 
