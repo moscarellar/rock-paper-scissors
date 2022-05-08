@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+    font-family: Amatic SC, sans-serif;
+}
+
 h1 {
     margin: auto;
     background: cornflowerblue;
     text-align: center;
+    font-family: Amatic SC, sans-serif;
 
 }
 
@@ -10,6 +17,7 @@ h2 {
     background: black;
     text-align: center;
     color: white;
+    font-family: Amatic SC, sans-serif;
 }
 
 #selection-area {
