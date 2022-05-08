@@ -116,8 +116,6 @@ I began to apply (to some extent) constant commits for the website, as this was 
 
 ## Credits
 
-It is very important to mention, even due no direct copy of code was done, the CI Love Running Project gave me a strong base to develop this page. This is my first time working on a web site development, so it is natural this is my main reference. However, I tried to make variations of this code so I could show control and understanding over the code I was using.
-
-Images were taken fromFind the  website [Unsplash](https://unsplash.com)
+Images were taken from Emojipedia. Find the  website [Emojepedia](https://emojipedia.org)
 
 Most of my doubts were already answered on Slack Community.
