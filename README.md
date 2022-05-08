@@ -24,15 +24,11 @@ Find the  website [here](https://moscarellar.github.io/rock-paper-scissors).
 
 
 *Returning Visitor Goals 
-*I want the layout to remain as simple and minimalistic as possible, so I can recognize the features I have already identified on my first visit.
+*I want the layout to remain as simple and minimalistic as possible so I can recognize the features I have already identified on my first visit.
 
 ### Structure
 
-The website consists of 1 HTML page.
-
-* 
-* 
-* 
+The website consists of 1 HTML page with a very clean and simple layout. Buttons and score table are easy to identify and self explanatory. 
 
 ## Design
 
