@@ -6,7 +6,8 @@ body {
 
 h1 {
     margin: auto;
-    background: cornflowerblue;
+    background: black;
+    color: white;
     text-align: center;
     font-family: Amatic SC, sans-serif;
 
