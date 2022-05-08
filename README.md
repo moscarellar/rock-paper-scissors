@@ -1,8 +1,7 @@
-# Rock, Paper, Scissors
+# Rock, Paper, Scissorss
 
-This is the main site for . Is designed to be responsive and accessible so it can be easy to navigate for users. It contains information on activities held in, location and contact information.
-This website was created with the purpose of completing the first Project of Code Institute Software Developer program.
-Find the  website [here](https://moscarellar.github.io/mo).
+This is the site for Rock, Paper, Scissors. Is deigned to be responsive and simple easy to use. This website was created with the purpose of completing the second Project of Code Institute Software Developer program.
+Find the  website [here](https://moscarellar.github.io/rock-paper-scissors).
 
 ![Website mockup](README/mockup.png)
 
