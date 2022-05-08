@@ -112,7 +112,7 @@ The main bugs issues were around the responsiveness on mobile phones and smaller
 Site was deployed to GitHub.
 In order to deploy I followed instructions in tutorials offered by Code Institute. Choosing the right option in the source section (Main/Master Branch).
 
-I began to apply (to some extent) constant commits for the website. However I believe there is the need to do it more often. I believe as a beginner this practice will be more and more common in future projects.
+I began to apply (to some extent) constant commits for the website, as this was a recommendation from previous project. Commits were more specific on this project, however I understand there is a space for improvements.
 
 ## Credits
 
