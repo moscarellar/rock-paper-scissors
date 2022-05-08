@@ -21,10 +21,20 @@ selections.forEach(selection => selection.addEventListener('click', (c) => {
     userChoiceImage();
     computerChoice();
     displayResult();
-    resetGame();
 
 
 }))
+
+/**
+ * As this button is exclusively to reset the game
+ * I found it better to exclusive create an event listener for it
+ * This is a way to demonstrate as well that I understand arrow functions,
+ * simple functions, and to demonstrate I understand how to manipulate the DOM
+ * with the query selector and specific ID as well.
+ */
+
+let resetButton = document.getElementById('resetbutton');
+resetButton.addEventListener("click", resetGame);
 
 /**
  * functions to display images after selection for user
@@ -182,26 +192,11 @@ function draw() {
     document.getElementById('draw-score').innerText = ++score;
 }
 
-function resetScores() {
-    document.getElementById('win-score').innerText = "0";
-    document.getElementById('lost-score').innerText = "0";
-    document.getElementById('draw-score').innerText = "0";
-}
+/**
+ * Function to reload game
+ * and bring scores back to zero
+ */
 
 function resetGame() {
-    if (document.getElementById('win-score').innerText === "3") {
-        setTimeout(function () {
-            alert("User won this round")
-        }, 500);
-        setTimeout(resetScores(), 20000);
-
-
-    } else if (document.getElementById('lost-score').innerText === "3") {
-        setTimeout(function () {
-            alert("Computer Won this round")
-        }, 300);
-
-
-        setTimeout(resetScores(), 10000);
-    }
+    location.reload();
 }
