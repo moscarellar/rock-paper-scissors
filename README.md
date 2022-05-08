@@ -92,24 +92,21 @@ These are the 3 technologies I used to create this site.
 4. GitHub
 5. Balsamiq
 7. Formatting
-    * The css file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
+    * The CSS file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
 
 ## Testing
 Testing was important in order to ensure that the site was responsive in different screen sizes. Tested on Chrome, Safari (Computer Screens and Mobile). 
-I ensured all links were working fine.
+I ensured images were not overlapping.
 
-HTML: No errors were returned when passing through the official W3C validator. For gallery site there is a warning for line 33, asking to include a h element. However, for a better aesthetic I decided not to include it.
+HTML: No errors were returned when passing through the official W3C validator.
 
 CSS: No errors were found when passing through the official W3C validator.
 
 Lighthouse
-Initially, lighthouse gave poor results, however, after following recommendations of running lighthouse in Incognito Window, scores improved dramatically. As it is mentioned in the course tutorial that Accessibility Scores are the most important, I feel very confident about my first project.
-
 ![Lighthouse](README/lighthouse.png)
 
 Bugs
-The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. 
-After rewatching tutorials and using Google as a tool to debug my project, I began to understand dynamics for elements much better, specially around Clear:Both and Overflow:Hidden. Also given each element the appropriate % rate to keep it consistent with the screen. I believe this was the biggest challenge/learning in this project.
+The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. Differently from previous project, I found easily to work with Flex feature on CSS. This made my workflow much easier.
 
 ## Deployment
 Site was deployed to GitHub.
