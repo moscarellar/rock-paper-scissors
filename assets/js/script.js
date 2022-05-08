@@ -11,31 +11,33 @@ let gameActualResult
 /**
  * selections.forEach is an event listener waiting for click. 
  * At every button click it will display button id into user-selection span
- * 
  * It fires computerChoice()
  */
 
-selections.forEach(selection => selection.addEventListener('click', (c) => {
-    userChoice = c.target.id;
+selections.forEach(selection => selection.addEventListener('click', (event) => {
+    userChoice = event.target.id;
     userSelection.innerHTML = userChoice;
-    userChoiceImage();
+    userChoiceOption();
     computerChoice();
     displayResult();
-
-
 }))
 
-/**
- * As this button is exclusively to reset the game
- * I found it better to exclusive create an event listener for it
- * This is a way to demonstrate as well that I understand arrow functions,
- * simple functions, and to demonstrate I understand how to manipulate the DOM
- * with the query selector and specific ID as well.
- */
 
-let resetButton = document.getElementById('resetbutton');
-resetButton.addEventListener("click", resetGame);
+function userChoiceOption() {
 
+    if (userChoice === "paper") {
+        displayUserPaper();
+    }
+
+    if (userChoice === "scissors") {
+        displayUserScissor();
+    }
+
+    if (userChoice === "rock") {
+        displayUserRock();
+    }
+
+}
 /**
  * functions to display images after selection for user
  */
@@ -53,21 +55,7 @@ function displayUserScissor() {
 }
 
 
-function userChoiceImage() {
 
-    if (userChoice === "paper") {
-        displayUserPaper();
-    }
-
-    if (userChoice === "scissors") {
-        displayUserScissor();
-    }
-
-    if (userChoice === "rock") {
-        displayUserRock();
-    }
-
-}
 
 
 /**
@@ -191,6 +179,17 @@ function draw() {
     let score = parseInt(document.getElementById('draw-score').innerText);
     document.getElementById('draw-score').innerText = ++score;
 }
+
+
+/**
+ * event listener exclusively for resetButton
+ *This is a way to demonstrate as well that I understand arrow functions,
+ * simple functions, and to demonstrate I understand how to manipulate the DOM
+ * with the query selector and specific ID as well.
+ */
+
+ let resetButton = document.getElementById('resetbutton');
+ resetButton.addEventListener("click", resetGame);
 
 /**
  * Function to reload game
