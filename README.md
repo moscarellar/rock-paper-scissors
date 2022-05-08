@@ -20,10 +20,11 @@ Find the  website [here](https://moscarellar.github.io/rock-paper-scissors).
 ### User Story
 *First Time Visitor Goals 
 *As a First Time user, I want to easily understand the layout of the site. 
-*As a First Time user, I want to be able to navigate through the site and understand which type of activities are offered. 
+*As a First Time user, I want to be able to easily understand the scores.
+
 
 *Returning Visitor Goals 
-*As a Returning user, I want to 
+*I want the layout to remain as simple and minimalistic as possible, so I can recognize the features I have already identified on my first visit.
 
 ### Structure
 
