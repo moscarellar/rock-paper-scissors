@@ -10,7 +10,7 @@ let gameActualResult
 
 /**
  * selections.forEach is an event listener waiting for click. 
- * userChoice will target the id of button, and return that value to userChoice.
+ * userChoice will target the id of button, and return the id value to userChoice.
  * userChoice value is used inside userChoiceOption to determine which function 
  * will be executed
  */
