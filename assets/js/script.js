@@ -23,6 +23,10 @@ selections.forEach(selection => selection.addEventListener('click', (event) => {
     displayResult();
 }))
 
+/**
+ * This function uses button id on user selection and 
+ * triggers a function that will display correct image
+ */
 
 function userChoiceOption() {
 
@@ -101,7 +105,11 @@ function displayComputerScissor() {
     document.getElementById("computer-selection-image").src = "assets/images/scissorshand.png";
 }
 
-
+/**
+ * this function will determine which text will appear
+ * on the result text display and determine it it was 
+ * a draw, user won or lost.
+ */
 
 function displayResult() {
 
@@ -179,9 +187,6 @@ function draw() {
 
 /**
  * event listener exclusively for resetButton
- *This is a way to demonstrate as well that I understand arrow functions,
- * simple functions, and to demonstrate I understand how to manipulate the DOM
- * with the query selector and specific ID as well.
  */
 
 let resetButton = document.getElementById('resetbutton');
