@@ -15,6 +15,10 @@ h1 {
 
 }
 
+#textbox{
+    font-size: 80%;
+}
+
 h2 {
     margin: auto;
     background: black;
