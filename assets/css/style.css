@@ -15,7 +15,7 @@ h1 {
 
 }
 
-#textbox{
+#textbox {
     font-size: 80%;
 }
 
@@ -42,20 +42,21 @@ h2 {
 
 }
 
-#scoringboard{
+#scoringboard {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}   
+}
 
-.buttonchoice{
+.buttonchoice {
     margin: 2px;
 }
 
 
 @media (min-width: 640px) {
     #selection-area {
-    flex-direction: row;
-}}
+        flex-direction: row;
+    }
+}
