@@ -59,20 +59,22 @@ I decided to use emoji imagery as it is broadly known to users and they will be 
 ![Emojis](README/emoji.png)
 
 ![Rock Emoji](README/rock.png)
+
 ![Paper Emoji](README/paper.png)
+
 ![Scissors Emoji](README/scissors.png)
 
 Buttons
 They are simple and easy to find. User can choose one of the 3 option (rock, paper, scissors) and there is an adittional Reset button. This botton will reset scores to 0.
 
 ![Buttons](README/buttons.png)
+
 ![Reset Button](README/resetbutton.png)
+
 Scoreboard
 Scoreborard is simple and easy to check. After each round the SB will be automatically updated so user can easily keep track of results.  
 
-
-![Scoreboard](README/scoreboard.png)
- 
+![Scoreboard](README/scoreboard.png) 
 
 ## Technologies
 
@@ -102,6 +104,7 @@ HTML: No errors were returned when passing through the official W3C validator.
 CSS: No errors were found when passing through the official W3C validator.
 
 Lighthouse
+
 ![Lighthouse](README/lighthouse.png)
 
 Bugs
