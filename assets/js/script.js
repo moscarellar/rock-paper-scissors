@@ -89,7 +89,7 @@ function computerChoice() {
  * functions to display images after selection for computer
  */
 
- function displayComputerRock() {
+function displayComputerRock() {
     document.getElementById("computer-selection-image").src = "assets/images/rockhand.png";
 }
 
@@ -184,8 +184,8 @@ function draw() {
  * with the query selector and specific ID as well.
  */
 
- let resetButton = document.getElementById('resetbutton');
- resetButton.addEventListener("click", resetGame);
+let resetButton = document.getElementById('resetbutton');
+resetButton.addEventListener("click", resetGame);
 
 /**
  * Function to reload game
