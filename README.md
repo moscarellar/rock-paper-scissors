@@ -52,27 +52,27 @@ Balsamiq was used in order to sketch the layout of the website.
 
 ![Second page wireframe](README/wireframe2.png)
 
-![Third page wireframe](README/wireframe3.png)
-
 ## Features
 
 Emoji Images
 I decided to use emoji imagery as it is broadly known to users and they will be able to relate easily to them. This will result in a faster identification of icons and more appealing.
+![Emojis](README/emoji.png)
+
+![Rock Emoji](README/rock.png)
+![Paper Emoji](README/paper.png)
+![Scissors Emoji](README/scissors.png)
 
 Buttons
 They are simple and easy to find. User can choose one of the 3 option (rock, paper, scissors) and there is an adittional Reset button. This botton will reset scores to 0.
 
-![Buttons](README/logo-navbar.png)
-
+![Buttons](README/buttons.png)
+![Reset Button](README/resetbutton.png)
 Scoreboard
 Scoreborard is simple and easy to check. After each round the SB will be automatically updated so user can easily keep track of results.  
 
 
-![Scoreboard](README/.png)
+![Scoreboard](README/scoreboard.png)
  
-Rules Link
-Pop up Window
-![Rules](README/.png)
 
 ## Technologies
 
@@ -86,7 +86,6 @@ These are the 3 technologies I used to create this site.
 ### Other sources to create the site
 
 1. Google Fonts
-![Landing - Hero Image](README/hero-image.png)
 2. Font Awesome
 3. Gitpod
 4. GitHub
