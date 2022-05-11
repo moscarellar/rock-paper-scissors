@@ -36,8 +36,7 @@ The website consists of 1 HTML page with a very clean and simple layout. Buttons
 As soon as we open the website we will find images corresponding to USER and COMPUTER sections. After triggering the game the images will change depending on USER and COMPUTER choices.
 I decided to use very known images (emojis) in order to give the feeling of "I know this imagery" to the user, so they can easily relate to the website.
 ### Fonts
-The fonts used throughout the website are Monoton and Rubik. 
-I used 1 font for the logo and 1 font for the site. There is no text-transform applied as we intended to keep logo with capital and lowercase letters.
+The fonts used throughout the website are Amatic SC and sans-serif.
 
 ### Color Scheme
 Our color pallete is created of the following colors. 
