@@ -53,6 +53,13 @@ Balsamiq was used in order to sketch the layout of the website.
 
 ## Features
 
+Header
+
+Header is simple and displays the game name. 
+
+
+![Header](README/header.png)
+
 Emoji Images
 
 I decided to use emoji imagery as it is broadly known to users and they will be able to relate easily to them. This will result in a faster identification of icons and more appealing.
