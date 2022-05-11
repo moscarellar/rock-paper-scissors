@@ -44,7 +44,7 @@ Our color pallete is created of the following colors.
 ![Color palette](README/colors.png)
 
 
-###Wireframes
+### Wireframes
 Balsamiq was used in order to sketch the layout of the website.
 
 ![First page wireframe](README/wireframe1.png)
@@ -54,7 +54,9 @@ Balsamiq was used in order to sketch the layout of the website.
 ## Features
 
 Emoji Images
+
 I decided to use emoji imagery as it is broadly known to users and they will be able to relate easily to them. This will result in a faster identification of icons and more appealing.
+
 ![Emojis](README/emoji.png)
 
 ![Rock Emoji](README/rock.png)
@@ -64,6 +66,7 @@ I decided to use emoji imagery as it is broadly known to users and they will be 
 ![Scissors Emoji](README/scissors.png)
 
 Buttons
+
 They are simple and easy to find. User can choose one of the 3 option (rock, paper, scissors) and there is an adittional Reset button. This botton will reset scores to 0.
 
 ![Buttons](README/buttons.png)
@@ -71,6 +74,7 @@ They are simple and easy to find. User can choose one of the 3 option (rock, pap
 ![Reset Button](README/resetbutton.png)
 
 Scoreboard
+
 Scoreborard is simple and easy to check. After each round the SB will be automatically updated so user can easily keep track of results.  
 
 ![Scoreboard](README/scoreboard.png) 
