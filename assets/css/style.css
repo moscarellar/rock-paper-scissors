@@ -50,6 +50,10 @@ h2 {
     flex-direction: column;
 }   
 
+.buttonchoice{
+    margin: 2px;
+}
+
 
 @media (min-width: 640px) {
     #selection-area {
