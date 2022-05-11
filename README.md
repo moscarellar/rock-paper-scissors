@@ -57,7 +57,6 @@ Header
 
 Header is simple and displays the game name. 
 
-
 ![Header](README/header.png)
 
 Emoji Images
@@ -85,6 +84,12 @@ Scoreboard
 Scoreborard is simple and easy to check. After each round the SB will be automatically updated so user can easily keep track of results.  
 
 ![Scoreboard](README/scoreboard.png) 
+
+Screen after making an option
+
+As the user clicks on the a button and begins to play, the screen will display an image of the option selected by the User and the Computer. 
+
+![Secondscreen](README/secondscreen.png) 
 
 ## Technologies
 
@@ -118,9 +123,11 @@ Lighthouse
 ![Lighthouse](README/lighthouse.png)
 
 Bugs
+
 The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. Differently from previous project, I found easily to work with Flex feature on CSS. This made my workflow much easier.
 
 ## Deployment
+
 Site was deployed to GitHub.
 In order to deploy I followed instructions in tutorials offered by Code Institute. Choosing the right option in the source section (Main/Master Branch).
 
